@@ -1,0 +1,21 @@
+body {
+    background: lightcyan;
+  }
+  
+  .coin {
+    appearance: none;
+    margin: 30vh auto;
+    height: 129px;
+    width: 135px;
+    background-image: 
+    url("coin.jpg");
+    background-position: 18% center;
+    background-repeat: no-repeat;
+    animation: play .8s steps(3) infinite;
+  }
+  
+  @keyframes play {
+    
+    50% { background-position: 90% center; }
+    100%{background-position: 18% center;}
+  }
